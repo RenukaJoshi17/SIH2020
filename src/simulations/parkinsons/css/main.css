@@ -1,0 +1,18 @@
+body * {
+  cursor: none !important;
+}
+
+#wds-parkinsonsCursor { 
+  position: absolute !important; 
+  z-index: 9999999 !important;
+	width: 21px;
+	height: 21px; 
+  pointer-events: none;
+  background-image: url("../img/cursor_mac.svg");
+  background-repeat: no-repeat;
+  transition: left 0.05s, top 0.05s;
+}
+
+#wds-parkinsonsCursor.windows {
+  background-image: url("../img/cursor_windows.svg");
+}

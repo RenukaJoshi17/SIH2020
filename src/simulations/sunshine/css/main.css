@@ -1,0 +1,5 @@
+
+html{
+  -webkit-filter: brightness(300%) !important;
+  filter: brightness(300%) !important;
+}
